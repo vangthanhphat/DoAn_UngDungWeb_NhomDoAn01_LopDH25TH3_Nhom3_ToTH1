@@ -31,7 +31,7 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('1', 'Văng Thành Phát', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '1', '1900 8899', 'admin@bigclock.vn', 'Số 88 Phố Đồng Khởi, Quận 1, TP. Hồ Chí Minh');
 INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('2', 'Nguyễn Hoàng Thiện', 'khachhang', 'e10adc3949ba59abbe56e057f20f883e', '0', '0988 123 456', 'hoangthien@gmail.com', '123 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh');
 INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('3', 'Huỳnh Minh Anh', 'minhanh', 'e10adc3949ba59abbe56e057f20f883e', '0', '0912 345 678', 'minhanh@gmail.com', '456 Đường Lê Lợi, Quận Hải Châu, TP. Đà Nẵng');
-INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('4', 'Lê Gia Phú', 'hoangnam', 'e10adc3949ba59abbe56e057f20f883e', '0', '0933 678 999', 'giaphu@gmail.com', '789 Đường Cầu Giấy, Quận Cầu Giấy, TP. Hà Nội');
+INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('4', 'Lê Gia Phú', 'giaphu', 'e10adc3949ba59abbe56e057f20f883e', '0', '0933 678 999', 'giaphu@gmail.com', '789 Đường Cầu Giấy, Quận Cầu Giấy, TP. Hà Nội');
 
 -- Cấu trúc bảng `dongho`
 CREATE TABLE `dongho` (
