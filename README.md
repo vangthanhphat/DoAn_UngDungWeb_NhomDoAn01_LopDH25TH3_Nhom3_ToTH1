@@ -96,7 +96,7 @@ bigclock/
 
 ---
 
-## 5. NHỮNG TÍNH NĂNG NỔI BẬT ĐẠT ĐIỂM CAO
+## 5. NHỮNG TÍNH NĂNG NỔI BẬT
 1. 💎 **Giao diện Dark Luxury Đẳng Cấp:** Tông màu Đen - Vàng Gold hoàng gia, video chuyển động ở banner chính, hiệu ứng hover phóng to ảnh, typography chuyên nghiệp.
 2. 🤖 **Chatbot AI Tư Vấn Bán Hàng (Groq LLaMA 3.3):** Bot AI tự động đọc dữ liệu trong database để trả lời trực tiếp cho khách hàng ngay trên giao diện web bằng tiếng Việt và đơn vị VNĐ.
 3. ⚡ **Live Search AJAX Siêu Nhanh:** Gợi ý tên và hình ảnh đồng hồ tức thì khi gõ phím mà không cần tải lại trang.
