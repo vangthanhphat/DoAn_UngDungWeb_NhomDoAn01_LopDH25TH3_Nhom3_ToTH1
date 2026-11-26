@@ -133,14 +133,6 @@ $res_ct = $conn->query($sql_ct);
                         </div>
                     </div>
 
-                    <!-- Mã QR Thanh Toán -->
-                    <div class="p-4 my-4" style="background: #000; border-radius: 12px; border: 1px solid rgba(212,175,55,0.4); max-width: 420px; margin: 0 auto;">
-                        <h6 class="text-warning fw-bold mb-2"><i class="fas fa-qrcode me-2"></i> QUÉT MÃ VIETQR ĐỂ THANH TOÁN</h6>
-                        <p class="small text-muted mb-3">Sử dụng ứng dụng Ngân hàng hoặc ví điện tử để quét mã tự động điền số tiền và nội dung chuyển khoản:</p>
-                        <img src="images/qrcode.jpg" alt="QR Thanh toán" style="max-width: 200px; border-radius: 8px; border: 2px solid #D4AF37;">
-                        <p class="small text-warning mt-2 mb-0">Nội dung CK: <b>BIGCLOCK <?= $maHoaDon ?></b></p>
-                    </div>
-
                     <!-- Các nút tiện ích -->
                     <div class="d-flex flex-wrap gap-2 justify-content-center mt-4">
                         <a href="hoadon_vat.php?id=<?= $maHoaDon ?>" class="btn btn-outline-gold" target="_blank">

@@ -56,7 +56,8 @@ bigclock/
 ├── giohang.php                        # Quản lý giỏ hàng (Xem, cập nhật số lượng, xóa món, xóa hết)
 ├── xoagiohang.php                     # Xóa sản phẩm khỏi giỏ hàng
 ├── muahang.php                        # Xác nhận đặt hàng (Thông tin người nhận, SĐT, Địa chỉ, COD/QR)
-├── camon.php                          # Trang đặt hàng thành công kèm mã VietQR chuyển khoản
+├── thanhtoan_qr.php                   # Quét mã VietQR và xác nhận ĐÃ THANH TOÁN (trừ kho & xóa session)
+├── camon.php                          # Trang cảm ơn sau thanh toán kèm nút xem hóa đơn VAT & phiếu giao
 ├── donhang_khach.php                  # Khách hàng xem lịch sử đơn đã đặt, in VAT và nút Hủy đơn
 ├── huy_donhang.php                    # Hủy đơn hàng và TỰ ĐỘNG HOÀN TRẢ SỐ LƯỢNG VÀO TỒN KHO
 ├── hoadon_vat.php                     # Hóa đơn điện tử GTGT (VAT) chuẩn in ấn kèm chữ ký số

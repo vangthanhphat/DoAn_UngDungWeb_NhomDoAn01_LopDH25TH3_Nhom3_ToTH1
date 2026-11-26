@@ -90,7 +90,7 @@ if (isset($_POST['btnDatHang'])) {
             if ($stmt_hd->execute()) {
                 $maHoaDon = $conn->insert_id;
 
-                // Thêm vào chi tiết hóa đơn & trừ tồn kho
+                // Thêm vào chi tiết hóa đơn (chưa trừ kho, chưa xóa session)
                 $sql_ct = "INSERT INTO chitiethoadon (MaHoaDon, MaDongHo, SoLuong, DonGia) VALUES (?, ?, ?, ?)";
                 $stmt_ct = $conn->prepare($sql_ct);
 
@@ -98,16 +98,10 @@ if (isset($_POST['btnDatHang'])) {
                     $dg = $conn->query("SELECT DonGia FROM dongho WHERE MaDongHo = $id")->fetch_assoc()['DonGia'];
                     $stmt_ct->bind_param("iiid", $maHoaDon, $id, $soluong, $dg);
                     $stmt_ct->execute();
-
-                    // Trừ số lượng kho
-                    $conn->query("UPDATE dongho SET SoLuong = SoLuong - $soluong WHERE MaDongHo = $id");
                 }
 
-                // Xóa giỏ hàng sau khi đặt thành công
-                unset($_SESSION['cart']);
-
-                // Chuyển tới trang cảm ơn
-                header("Location: camon.php?ma_hoadon=" . $maHoaDon);
+                // Chuyển tới trang quét mã VietQR để người mua thanh toán
+                header("Location: thanhtoan_qr.php?ma_hoadon=" . $maHoaDon);
                 exit();
             } else {
                 $error = "Có lỗi xảy ra khi lưu đơn hàng. Vui lòng thử lại!";
