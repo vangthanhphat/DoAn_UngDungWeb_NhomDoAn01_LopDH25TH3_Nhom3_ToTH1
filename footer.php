@@ -7,14 +7,14 @@
                         <img src="images/logo.png?v=2" alt="BIGCLOCK Logo" style="height: 50px; margin-right: 12px;">
                         <h3 class="gold-text mb-0" style="font-family: 'Cinzel', serif; font-weight: 800; letter-spacing: 3px;">BIGCLOCK</h3>
                     </div>
-                    <p style="color: #aaa; line-height: 1.8; font-size: 0.95rem;">
+                    <p style="color: #cbd5e1; line-height: 1.8; font-size: 0.95rem;">
                         <b>BIGCLOCK</b> - Hệ thống phân phối đồng hồ Thụy Sĩ &amp; Nhật Bản chính hãng hàng đầu Việt Nam. Nơi thời gian trở thành nghệ thuật và khẳng định vị thế đỉnh cao.
                     </p>
                     <div class="mt-4 d-flex gap-2">
-                        <a href="#" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/1EDpyjcPyA/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;" title="Facebook BIGCLOCK"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/omega?avpt=MTNjNWlmbDQ5d3R1Mw==" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;" title="Instagram BIGCLOCK"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@omega?si=4am3Xk8M7sCJ7-Uq" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;" title="YouTube Channel BIGCLOCK"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@omega?_r=1&_t=ZS-9BiwiCvqbXJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-gold rounded-circle" style="width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;" title="TikTok BIGCLOCK"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
                 
