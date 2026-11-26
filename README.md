@@ -1,6 +1,17 @@
-# ĐỒ ÁN ỨNG DỤNG WEB: SHOWROOM ĐỒNG HỒ CAO CẤP BIGCLOCK
-### Lớp: DH25TH3 | Nhóm Đồ Án: 01 | Nhóm: 3 | Tổ: TH1
-**Repository:** `DoAn_UngDungWeb_NhomDoAn01_LopDH25TH3_Nhom3_ToTH1`
+# HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ SHOWROOM ĐỒNG HỒ CAO CẤP BIGCLOCK
+
+> **Học phần:** Phát triển ứng dụng web  
+> **Khoa:** Công Nghệ Thông Tin – Trường Đại học An Giang (ĐHQG TP.HCM)  
+> **Giảng viên hướng dẫn:** ThS. Thiều Thanh Quang Phú  
+
+---
+
+## 👨‍💻 THÔNG TIN NHÓM SINH VIÊN THỰC HIỆN
+
+* **Sinh viên 1:** Văng Thành Phát — **MSSV:** `DTH245849` — **Lớp:** `DH25TH3`
+* **Sinh viên 2:** Nguyễn Hoàng Thiện — **MSSV:** `DTH245892` — **Lớp:** `DH25TH3`
+* **Nhóm Đồ Án:** Nhóm 03 — **Tổ thực hành:** Tổ 01
+* **Repository:** [https://github.com/vangthanhphat/DoAn_UngDungWeb_NhomDoAn01_LopDH25TH3_Nhom3_ToTH1](https://github.com/vangthanhphat/DoAn_UngDungWeb_NhomDoAn01_LopDH25TH3_Nhom3_ToTH1)
 
 ---
 
@@ -11,9 +22,9 @@
 * **Phong cách giao diện:** **Dark Luxury Theme** (Đen huyền bí kết hợp Vàng Gold hoàng gia, typography *Plus Jakarta Sans* & *Cinzel*).
 * **Công nghệ phát triển:**
   * **Back-end:** PHP thuần kết nối `mysqli` với Prepared Statements chống SQL Injection.
-  * **Cơ sở dữ liệu:** MySQL / MariaDB (`bigclock_db` chuẩn utf8mb4, tự động hỗ trợ cả Vertrigo và XAMPP).
+  * **Cơ sở dữ liệu:** MySQL / MariaDB (`bigclock_db` chuẩn utf8mb4, tự động nhận diện cả Vertrigo và XAMPP).
   * **Front-end:** HTML5, CSS3 Luxury, JavaScript ES6 (Live Search AJAX, Popup Modal xem nhanh, Toast giỏ hàng ngầm).
-  * **Tích hợp AI:** **Chatbot AI tư vấn bán hàng** thông minh kết nối Groq API (Mô hình LLaMA 3.3 / Qwen), tự động đọc dữ liệu đồng hồ trong kho để tư vấn cho khách hàng.
+  * **Tích hợp AI:** **Chatbot AI tư vấn bán hàng** thông minh kết nối Groq API (Mô hình LLaMA 3.3 / Qwen), tự động đọc dữ liệu đồng hồ trong kho để tư vấn cho khách hàng bằng tiếng Việt và đơn vị VNĐ.
   * **Thanh toán & Hóa đơn:** Tích hợp VietQR chuyển khoản tự động, In hóa đơn điện tử VAT và Xuất báo cáo Excel.
 
 ---
@@ -24,7 +35,7 @@ bigclock/
 ├── css/                               # Thư mục style CSS
 ├── images/                            # Hình ảnh logo, banner, đồng hồ, video chế tác, mã VietQR
 │   ├── products/                      # Ảnh sản phẩm đồng hồ
-│   ├── luxury/                        # Ảnh chụp nghệ thuật
+│   ├── luxury/                        # Ảnh chụp nghệ thuật 16 mẫu Thụy Sĩ
 │   └── VD.mp4                         # Video thủ công chế tác
 ├── uploads/                           # Lưu trữ ảnh khi Quản trị viên thêm đồng hồ mới
 │
@@ -87,12 +98,12 @@ bigclock/
 
 ## 4. TÀI KHOẢN MẪU ĐĂNG NHẬP KIỂM THỬ
 
-| Họ và Tên | Tên đăng nhập | Mật khẩu | Quyền hạn | Mục đích sử dụng |
-|---|---|---|---|---|
-| **Văng Thành Phát** | **admin** | **123456** | **Quản Trị Viên (Admin)** | Toàn quyền quản trị Dashboard, Sản phẩm, Đơn hàng, Doanh thu |
-| **Nguyễn Hoàng Thiện** | **khachhang** | **123456** | **Khách hàng VIP** | Mua hàng, xem lịch sử đơn, in hóa đơn điện tử VAT |
-| **Huỳnh Minh Anh** | **minhanh** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
-| **Lê Gia Phú** | **hoangnam** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
+| Họ và Tên | MSSV | Tên đăng nhập | Mật khẩu | Quyền hạn | Mục đích sử dụng |
+|---|---|---|---|---|---|
+| **Văng Thành Phát** | `DTH245849` | **admin** | **123456** | **Quản Trị Viên (Admin)** | Toàn quyền quản trị Dashboard, Sản phẩm, Đơn hàng, Doanh thu |
+| **Nguyễn Hoàng Thiện** | `DTH245892` | **khachhang** | **123456** | **Khách hàng VIP** | Mua hàng, xem lịch sử đơn, in hóa đơn điện tử VAT |
+| **Tài khoản test 1** | `Khách 1` | **minhanh** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
+| **Tài khoản test 2** | `Khách 2` | **hoangnam** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
 
 ---
 
