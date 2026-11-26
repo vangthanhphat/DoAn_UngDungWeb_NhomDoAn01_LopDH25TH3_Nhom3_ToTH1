@@ -148,12 +148,12 @@ if (isset($_POST['btnDaThanhToan'])) {
                 <p class="small text-muted mb-3">Sử dụng ứng dụng Ngân hàng hoặc ví điện tử để quét mã tự động điền số tiền và nội dung chuyển khoản:</p>
                 
                 <div class="p-2 d-inline-block bg-white rounded-3 mb-2 shadow">
-                    <img src="images/qrcode.jpg" alt="Mã VietQR" style="max-width: 230px; width: 100%; border-radius: 6px; display: block;">
+                    <img src="images/qrcode.jpg?v=<?= time() ?>" alt="Mã VietQR Techcombank" style="max-width: 280px; width: 100%; border-radius: 8px; display: block;">
                 </div>
                 
-                <div class="mt-2 p-2 rounded" style="background: rgba(212,175,55,0.12); border: 1px dashed rgba(212,175,55,0.4);">
-                    <span style="color: #cbd5e1; font-size: 0.9rem;">Nội dung CK: </span>
-                    <b class="text-warning fs-5">BIGCLOCK <?= $maHoaDon ?></b>
+                <div class="mt-3 p-2 rounded" style="background: rgba(212,175,55,0.12); border: 1px dashed rgba(212,175,55,0.4);">
+                    <div style="color: #cbd5e1; font-size: 0.92rem;">Chủ TK: <b style="color: #ffffff;">VĂNG THÀNH PHÁT</b> | Ngân hàng: <b class="text-warning">Techcombank</b></div>
+                    <div style="color: #cbd5e1; font-size: 0.92rem; margin-top: 4px;">Nội dung CK: <b class="text-warning fs-5">BIGCLOCK <?= $maHoaDon ?></b></div>
                 </div>
             </div>
 
