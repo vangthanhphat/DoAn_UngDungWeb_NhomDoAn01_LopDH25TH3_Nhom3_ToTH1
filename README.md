@@ -16,7 +16,7 @@
 ---
 
 ## 1. GIỚI THIỆU DỰ ÁN
-* **Tên thương hiệu:** **BIGCLOCK - SWISS & JAPANESE LUXURY TIMEPIECE**
+* **Tên thương hiệu:** **BIGCLOCK - SWISS LUXURY TIMEPIECE**
 * **Slogan:** *Tinh hoa thời gian - Đẳng cấp vĩnh cửu*
 * **Chủ đề:** Website Thương mại điện tử Bán & Giới thiệu Đồng Hồ Cao Cấp Thụy Sĩ & Nhật Bản.
 * **Phong cách giao diện:** **Dark Luxury Theme** (Đen huyền bí kết hợp Vàng Gold hoàng gia, typography *Plus Jakarta Sans* & *Cinzel*).
