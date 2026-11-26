@@ -32,7 +32,8 @@
 ## 2. CẤU TRÚC THƯ MỤC DỰ ÁN
 ```text
 bigclock/
-├── css/                               # Thư mục style CSS
+├── css/
+│   └── index.css                      # Giao diện Dark Luxury dùng chung toàn website
 ├── images/                            # Hình ảnh logo, banner, đồng hồ, video chế tác, mã VietQR
 │   ├── products/                      # Ảnh sản phẩm đồng hồ
 │   ├── luxury/                        # Ảnh chụp nghệ thuật 16 mẫu Thụy Sĩ
