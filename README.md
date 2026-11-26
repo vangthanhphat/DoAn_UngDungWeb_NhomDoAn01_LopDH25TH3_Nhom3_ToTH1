@@ -105,7 +105,7 @@ bigclock/
 | **Văng Thành Phát** | `DTH245849` | **admin** | **123456** | **Quản Trị Viên (Admin)** | Toàn quyền quản trị Dashboard, Sản phẩm, Đơn hàng, Doanh thu |
 | **Nguyễn Hoàng Thiện** | `DTH245892` | **khachhang** | **123456** | **Khách hàng VIP** | Mua hàng, xem lịch sử đơn, in hóa đơn điện tử VAT |
 | **Tài khoản test 1** | `Khách 1` | **minhanh** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
-| **Lê Gia Phú** | `Khách 2` | **giaphu** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
+| **Tài khoản test 2** | `Khách 2` | **giaphu** | **123456** | **Khách hàng** | Tài khoản khách hàng thành viên kiểm thử |
 
 ---
 
