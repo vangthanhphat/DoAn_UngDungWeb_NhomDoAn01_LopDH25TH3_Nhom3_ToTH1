@@ -28,10 +28,10 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dữ liệu bảng `user`
-INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('1', 'Văng Thành Phát', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '1', '1900 8899', 'admin@bigclock.vn', 'Sá»‘ 88 Phá»‘ Äá»“ng Khá»Ÿi, Quáº­n 1, TP. Há»“ ChÃ­ Minh');
-INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('2', 'Nguyễn Hoàng Thiện', 'khachhang', 'e10adc3949ba59abbe56e057f20f883e', '0', '0988 123 456', 'hoangthien@gmail.com', '123 ÄÆ°á»ng Nguyá»…n Huá»‡, Quáº­n 1, TP. Há»“ ChÃ­ Minh');
-INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('3', 'Huỳnh Minh Anh', 'minhanh', 'e10adc3949ba59abbe56e057f20f883e', '0', '0912 345 678', 'minhanh@gmail.com', '456 ÄÆ°á»ng LÃª Lá»£i, Quáº­n Háº£i ChÃ¢u, TP. ÄÃ  Náºµng');
-INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('4', 'Lê Gia Phú', 'hoangnam', 'e10adc3949ba59abbe56e057f20f883e', '0', '0933 678 999', 'giaphu@gmail.com', '789 ÄÆ°á»ng Cáº§u Giáº¥y, Quáº­n Cáº§u Giáº¥y, TP. HÃ  Ná»™i');
+INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('1', 'Văng Thành Phát', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '1', '1900 8899', 'admin@bigclock.vn', 'Số 88 Phố Đồng Khởi, Quận 1, TP. Hồ Chí Minh');
+INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('2', 'Nguyễn Hoàng Thiện', 'khachhang', 'e10adc3949ba59abbe56e057f20f883e', '0', '0988 123 456', 'hoangthien@gmail.com', '123 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh');
+INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('3', 'Huỳnh Minh Anh', 'minhanh', 'e10adc3949ba59abbe56e057f20f883e', '0', '0912 345 678', 'minhanh@gmail.com', '456 Đường Lê Lợi, Quận Hải Châu, TP. Đà Nẵng');
+INSERT INTO `user` (`MaNguoiDung`, `TenNguoiDung`, `TenDangNhap`, `MatKhau`, `Quyen`, `SDT`, `Email`, `DiaChi`) VALUES ('4', 'Lê Gia Phú', 'hoangnam', 'e10adc3949ba59abbe56e057f20f883e', '0', '0933 678 999', 'giaphu@gmail.com', '789 Đường Cầu Giấy, Quận Cầu Giấy, TP. Hà Nội');
 
 -- Cấu trúc bảng `dongho`
 CREATE TABLE `dongho` (
@@ -60,7 +60,7 @@ INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `
 INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('11', 'BigClock Seamaster Planet Ocean 600M', '168000000', '130000000', '20', 'Đồng hồ thợ lặn chuyên nghiệp chinh phục độ sâu 600M (2000ft) với van xả khí Heli. Vành xoay gốm ceramic màu cam viền dạ quang rực rỡ, kính sapphire vòm chống trầy xước.', 'images/luxury/sp_planetocean_600m.png', '1');
 INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('12', 'BigClock Speedmaster Chronoscope Blue', '195000000', '155000000', '16', 'Mặt số xanh Navy huyền ảo với 3 thang đo cổ điển: Telemeter đo khoảng cách, Pulsometer đo nhịp tim và Tachymeter đo vận tốc. Bộ máy lên cót tay Calibre 9908 đạt chứng nhận Thụy Sĩ.', 'images/luxury/sp_chronoscope_blue.png', '1');
 INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('13', 'BigClock De Ville Prestige Power Reserve', '140000000', '110000000', '22', 'Phong cách quý ông thanh lịch với kim báo mức năng lượng cót góc 6 giờ và kim rốn góc 9 giờ. Dây da cá sấu Alligator xanh bóng cao cấp, mặt số chải tia Sun-brushed quyến rũ.', 'images/luxury/sp_deville_prestige.png', '1');
-INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('14', 'BigClock Seamaster Railmaster Steel', '125000000', '95000000', '25', 'Thiết kế mặt số thép chải xước dọc lấy cảm hứng từ những cỗ tàu lửa huyền thoại thế kỷ 20. Khả năng kháng từ trường cực đại 15.000 Gauss bảo vệ bộ máy trong mọi môi trường công nghệ.', 'images/luxury/sp_railmaster_vintage.png', '1');
+INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('14', 'BigClock Seamaster Railmaster Steel', '125000000', '95000000', '24', 'Thiết kế mặt số thép chải xước dọc lấy cảm hứng từ những cỗ tàu lửa huyền thoại thế kỷ 20. Khả năng kháng từ trường cực đại 15.000 Gauss bảo vệ bộ máy trong mọi môi trường công nghệ.', 'images/luxury/sp_railmaster_vintage.png', '1');
 INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('15', 'BigClock Constellation Observatory Gold', '220000000', '175000000', '14', 'Biểu tượng chòm sao với viền demi vàng Sedna 18K và cọc số La Mã khắc laze tinh tế. Nắp đáy chạm nổi huy hiệu Đài thiên văn Geneva được bao quanh bởi 8 vì sao tượng trưng cho 8 kỳ tích đo lường.', 'images/luxury/sp_constellation_observatory.png', '1');
 INSERT INTO `dongho` (`MaDongHo`, `TenDongHo`, `DonGia`, `GiaNhap`, `SoLuong`, `MoTa`, `HinhAnh`, `TrangThai`) VALUES ('16', 'BigClock Constellation Petit Diamond 28mm', '98000000', '75000000', '28', 'Dành riêng cho quý cô yêu kiều với đường kính 28mm thanh thoát. Mặt số màu phấn pastel dịu ngọt đính 12 viên kim cương tự nhiên thay thế cọc số, bộ máy thạch anh chuẩn xác cao Thụy Sĩ.', 'images/luxury/sp_constellation_quartz28.png', '1');
 
@@ -79,15 +79,16 @@ CREATE TABLE `hoadon` (
   PRIMARY KEY (`MaHoaDon`),
   KEY `fk_hoadon_user` (`MaNguoiDung`),
   CONSTRAINT `fk_hoadon_user` FOREIGN KEY (`MaNguoiDung`) REFERENCES `user` (`MaNguoiDung`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dữ liệu bảng `hoadon`
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('1', '2', 'Trần Sĩ Tấn', 'sitan@gmail.com', '123 ÄÆ°á»ng Nguyá»…n Huá»‡, Quáº­n 1, TP. Há»“ ChÃ­ Minh', '0988 123 456', '2026-11-20 09:30:00', '145000000', 'qrcode.jpg', '3');
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('2', '3', 'Huỳnh Hiền Triết', 'hientriet@gmail.com', '456 ÄÆ°á»ng LÃª Lá»£i, Quáº­n Háº£i ChÃ¢u, TP. ÄÃ  Náºµng', '0912 345 678', '2026-11-22 14:15:00', '185000000', 'qrcode.jpg', '3');
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('3', '4', 'Hà Minh Trí', 'minhtri@gmail.com', '789 ÄÆ°á»ng Cáº§u Giáº¥y, Quáº­n Cáº§u Giáº¥y, TP. HÃ  Ná»™i', '0933 678 999', '2026-11-23 11:20:00', '470000000', 'qrcode.jpg', '2');
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('4', '2', 'Võ Đức Thịnh', 'ducthinh@gmail.com', '123 ÄÆ°á»ng Nguyá»…n Huá»‡, Quáº­n 1, TP. Há»“ ChÃ­ Minh', '0988 123 456', '2026-11-25 16:45:00', '295000000', 'qrcode.jpg', '1');
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('5', '3', 'Trần Sĩ Tấn', 'sitan@gmail.com', '456 ÄÆ°á»ng LÃª Lá»£i, Quáº­n Háº£i ChÃ¢u, TP. ÄÃ  Náºµng', '0912 345 678', '2026-11-26 10:00:00', '390000000', 'qrcode.jpg', '0');
-INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('6', '1', NULL, NULL, 'Sá»‘ 88 Phá»‘ Äá»“ng Khá»Ÿi, Quáº­n 1, TP. Há»“ ChÃ­ Minh', '1900 8899', '2026-11-26 10:14:05', '115000000', 'qrcode.jpg', '0');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('1', '2', 'Trần Sĩ Tấn', 'sitan@gmail.com', '123 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh', '0988 123 456', '2026-11-20 09:30:00', '145000000', 'qrcode.jpg', '3');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('2', '3', 'Huỳnh Hiền Triết', 'hientriet@gmail.com', '456 Đường Lê Lợi, Quận Hải Châu, TP. Đà Nẵng', '0912 345 678', '2026-11-22 14:15:00', '185000000', 'qrcode.jpg', '3');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('3', '4', 'Hà Minh Trí', 'minhtri@gmail.com', '789 Đường Cầu Giấy, Quận Cầu Giấy, TP. Hà Nội', '0933 678 999', '2026-11-23 11:20:00', '470000000', 'qrcode.jpg', '2');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('4', '2', 'Võ Đức Thịnh', 'ducthinh@gmail.com', '123 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh', '0988 123 456', '2026-11-25 16:45:00', '295000000', 'qrcode.jpg', '1');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('5', '3', 'Trần Sĩ Tấn', 'sitan@gmail.com', '456 Đường Lê Lợi, Quận Hải Châu, TP. Đà Nẵng', '0912 345 678', '2026-11-26 10:00:00', '390000000', 'qrcode.jpg', '0');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('6', '1', NULL, NULL, 'Số 88 Phố Đồng Khởi, Quận 1, TP. Hồ Chí Minh', '1900 8899', '2026-11-26 10:14:05', '115000000', 'qrcode.jpg', '0');
+INSERT INTO `hoadon` (`MaHoaDon`, `MaNguoiDung`, `TenKhachHang`, `EmailKhachHang`, `DiaChi`, `SDT_GiaoHang`, `NgayLap`, `TongTien`, `HinhQR`, `TrangThaiDonHang`) VALUES ('7', '1', NULL, NULL, 'Số 88 Phố Đồng Khởi, Quận 1, TP. Hồ Chí Minh', '1900 8899', '2026-11-26 12:43:41', '125000000', 'qrcode.jpg', '0');
 
 -- Cấu trúc bảng `chitiethoadon`
 CREATE TABLE `chitiethoadon` (
@@ -101,7 +102,7 @@ CREATE TABLE `chitiethoadon` (
   KEY `fk_cthd_dongho` (`MaDongHo`),
   CONSTRAINT `fk_cthd_dongho` FOREIGN KEY (`MaDongHo`) REFERENCES `dongho` (`MaDongHo`) ON DELETE CASCADE,
   CONSTRAINT `fk_cthd_hoadon` FOREIGN KEY (`MaHoaDon`) REFERENCES `hoadon` (`MaHoaDon`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dữ liệu bảng `chitiethoadon`
 INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `DonGia`) VALUES ('1', '1', '1', '1', '145000000');
@@ -111,4 +112,5 @@ INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `Do
 INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `DonGia`) VALUES ('5', '4', '3', '1', '295000000');
 INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `DonGia`) VALUES ('6', '5', '6', '1', '390000000');
 INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `DonGia`) VALUES ('7', '6', '5', '1', '115000000');
+INSERT INTO `chitiethoadon` (`MaChiTiet`, `MaHoaDon`, `MaDongHo`, `SoLuong`, `DonGia`) VALUES ('8', '7', '14', '1', '125000000');
 
